@@ -1,7 +1,7 @@
 # PROJECT RAPTOR
 
 ## Overview
-PROJECT RAPTOR is a simulation of a stock exchange platform implemented using fundamental networking protocols such as **TCP**, **IP**, and **UDP**. This project provides a practical understanding of networking basics while simulating real-world stock market operations.
+PROJECT RAPTOR is a simulation of a stock exchange platform implemented using fundamental networking protocols such as **TCP**, **IP**. This project provides a practical understanding of networking basics while simulating real-world stock market operations.
 
 ## Key Features
 - 🗄️ **Database**: Utilizes **Firebase** for storing:
