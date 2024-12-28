@@ -77,6 +77,7 @@ Run the following components **simultaneously** on different devices connected t
 2. **Firebase Authentication**:
    - 🔑 Ensure proper Firebase credentials are configured.
    - 🌐 Check internet connectivity.
+   - Provide appropriate JSON file to authenticate the firbase(check code for structure of the database)
 
 ## Future Improvements
 - 🚀 Transition to a faster UI framework like **JavaFX** or **Swing**.
