@@ -4,13 +4,13 @@
 PROJECT RAPTOR is a simulation of a stock exchange platform implemented using fundamental networking protocols such as **TCP**, **IP**, and **UDP**. This project provides a practical understanding of networking basics while simulating real-world stock market operations.
 
 ## Key Features
-- **Database**: Utilizes **Firebase** for storing:
+- 🗄️ **Database**: Utilizes **Firebase** for storing:
   - Stock details
   - Customer details
   - Banking information
-- **Networking**:
+- 🌐 **Networking**:
   - Implements fundamental networking protocols for communication.
-- **Platform**:
+- 💻 **Platform**:
   - Developed as a desktop application.
   - **UI Framework**: Built using **PyQT** for interface design. For faster performance, consider experimenting with **Java** for the UI.
 
@@ -27,7 +27,7 @@ The main objective of PROJECT RAPTOR is to provide a clear understanding of base
 
 ## Setup Instructions
 ### Step 1: Configure IP Addresses
-- Use the appropriate **IPv4 addresses** for your devices.
+- 🛠️ Use the appropriate **IPv4 addresses** for your devices.
 - To find the IPv4 address:
   - **Windows**: Open Command Prompt and run:
     ```bash
@@ -60,26 +60,26 @@ Run the following components **simultaneously** on different devices connected t
 
 ## Screenshots
 ![UI Preview](assets/ui_preview.png)
-*Example of the user interface designed with PyQT.*
+*📸 Example of the user interface designed with PyQT.*
 
 ## Notes
-- Ensure all three components are running on devices connected to the same network.
-- Triple-check the IP addresses configured in the code.
-- For smoother performance, explore Java-based UI development if required.
+- ⚠️ Ensure all three components are running on devices connected to the same network.
+- 🔍 Triple-check the IP addresses configured in the code.
+- 🖥️ For smoother performance, explore Java-based UI development if required.
 
 ## Troubleshooting
 ### Common Issues
 1. **Connection Errors**:
-   - Verify that the devices are connected to the same network.
-   - Confirm that the correct IPv4 addresses are used.
+   - 🔌 Verify that the devices are connected to the same network.
+   - ✅ Confirm that the correct IPv4 addresses are used.
 2. **Firebase Authentication**:
-   - Ensure proper Firebase credentials are configured.
-   - Check internet connectivity.
+   - 🔑 Ensure proper Firebase credentials are configured.
+   - 🌐 Check internet connectivity.
 
 ## Future Improvements
-- Transition to a faster UI framework like **JavaFX** or **Swing**.
-- Enhance database security.
-- Implement advanced networking features such as **SSL/TLS** for secure communication.
+- 🚀 Transition to a faster UI framework like **JavaFX** or **Swing**.
+- 🔒 Enhance database security.
+- 📡 Implement advanced networking features such as **SSL/TLS** for secure communication.
 
 ---
 **Author**: [Dharun M]
