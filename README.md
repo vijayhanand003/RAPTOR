@@ -82,4 +82,4 @@ Run the following components **simultaneously** on different devices connected t
 - 📡 Implement advanced networking features such as **SSL/TLS** for secure communication.
 
 ---
-**Author**: [Dharun M]
+
