@@ -83,7 +83,7 @@ class MainWindow(QWidget):
         login_layout.addSpacerItem(QSpacerItem(20, 100, QSizePolicy.Minimum, QSizePolicy.Expanding))
 
         # Add the title "Project Raptor" at the center of the window
-        project_title = QLabel("TradeX", self)
+        project_title = QLabel("Raptor", self)
         project_title.setAlignment(Qt.AlignCenter)
         project_title.setStyleSheet("font-size: 24px; font-weight: bold; margin-bottom:100px; color: #333333;")
         login_layout.addWidget(project_title, alignment=Qt.AlignCenter)
