@@ -59,7 +59,9 @@ Run the following components **simultaneously** on different devices connected t
    ```
 
 ## Screenshots
-![UI Preview](assets/login_page.png)(assets/main_page.png)(assets/portfolio.png)
+<img src="assets/login_page.png" alt="UI Preview" width="500">
+<img src="assets/main_page.png" alt="UI Preview" width="500">
+<img src="assets/portfolio.png" alt="UI Preview" width="500">
 *📸 Example of the user interface designed with PyQT.*
 
 ## Notes
