@@ -1,88 +1,125 @@
-# PROJECT RAPTOR
+# **PROJECT RAPTOR**
 
-## Overview
-PROJECT RAPTOR is a simulation of a stock exchange platform implemented using fundamental networking protocols such as **TCP**, **IP**. This project provides a practical understanding of networking basics while simulating real-world stock market operations.
+---
 
-## Key Features
-- 🗄️ **Database**: Utilizes **Firebase** for storing:
-  - Stock details
-  - Customer details
-  - Banking information
-- 🌐 **Networking**:
-  - Implements fundamental networking protocols for communication.
-- 💻 **Platform**:
-  - Developed as a desktop application.
-  - **UI Framework**: Built using **PyQT** for interface design. For faster performance, consider experimenting with **Java** for the UI.
+## 🚀 **Overview**
 
-## Goals
-The main objective of PROJECT RAPTOR is to provide a clear understanding of base networking protocols, which form the backbone of modern networking systems.
+**PROJECT RAPTOR** is a cutting-edge simulation of a stock exchange platform, built to demonstrate the fundamentals of networking protocols like **TCP** and **IP**. This project bridges the gap between theoretical concepts and real-world applications of networking while replicating stock market operations.
 
-## Prerequisites
-1. Ensure you have Python installed with the following libraries:
-   - PyQT
-   - Firebase dependencies
-2. Compatible operating systems:
-   - **Windows**
-   - **Linux**
+---
 
-## Setup Instructions
-### Step 1: Configure IP Addresses
-- 🛠️ Use the appropriate **IPv4 addresses** for your devices.
-- To find the IPv4 address:
-  - **Windows**: Open Command Prompt and run:
-    ```bash
-    ipconfig
-    ```
-  - **Linux**: Open Terminal and run:
-    ```bash
-    ifconfig
-    ```
+## 🔑 **Key Features**
 
-### Step 2: Running the Application
-Run the following components **simultaneously** on different devices connected to the same network, or in separate terminals on a single machine:
-1. **Banking Server**
-2. **Client**
-3. **Main Server**
+### 🗄️ **Database Integration**
+Powered by **Firebase**, the platform securely stores:
+- 📊 **Stock Details**
+- 👤 **Customer Data**
+- 💳 **Banking Information**
 
-#### Example:
-1. Start the **Banking Server**:
+### 🌐 **Networking Backbone**
+- Built with **TCP/IP** for seamless communication between components.
+
+### 💻 **Desktop Platform**
+- **User Interface**: Designed with **PyQT** for a sleek and interactive experience.
+- For enhanced performance, future iterations may utilize **Java**.
+
+---
+
+## 🎯 **Project Goals**
+
+The primary objective of **PROJECT RAPTOR** is to offer a hands-on understanding of base networking protocols that form the backbone of modern systems, with a practical simulation of a stock exchange environment.
+
+---
+
+## 📋 **Prerequisites**
+
+### 🔧 **Software Requirements**
+- Python installed with:
+  - **PyQT**
+  - Firebase libraries
+
+### 💻 **Compatible Platforms**
+- **Windows**
+- **Linux**
+
+---
+
+## ⚙️ **Setup Instructions**
+
+### **Step 1: Configure IP Addresses**
+1. Locate your **IPv4 address**:
+   - **Windows**: Open Command Prompt and run:
+     ```bash
+     ipconfig
+     ```
+   - **Linux**: Open Terminal and run:
+     ```bash
+     ifconfig
+     ```
+
+### **Step 2: Running the Application**
+1. Launch the following components **simultaneously** on the same network or separate terminals:
+
+   **Banking Server**:
    ```bash
    python bankingserver.py
    ```
-2. Start the **Main Server**:
+
+   **Main Server**:
    ```bash
    python server.py
    ```
-3. Start the **Client Application**:
+
+   **Client Application**:
    ```bash
    python client.py
    ```
 
-## Screenshots
-<img src="assets/login_page.png" alt="UI Preview" width="500">
-<img src="assets/main_page.png" alt="UI Preview" width="500">
-<img src="assets/portfolio.png" alt="UI Preview" width="500">
-*📸 Example of the user interface designed with PyQT.*
+---
 
-## Notes
-- ⚠️ Ensure all three components are running on devices connected to the same network.
-- 🔍 Triple-check the IP addresses configured in the code.
-- 🖥️ For smoother performance, explore Java-based UI development if required.
+## 🖼️ **Screenshots**
 
-## Troubleshooting
-### Common Issues
-1. **Connection Errors**:
-   - 🔌 Verify that the devices are connected to the same network.
-   - ✅ Confirm that the correct IPv4 addresses are used.
-2. **Firebase Authentication**:
-   - 🔑 Ensure proper Firebase credentials are configured.
-   - 🌐 Check internet connectivity.
-   - Provide appropriate JSON file to authenticate the firbase(check code for structure of the database)
+### Login Page:
+<img src="assets/login_page.png" alt="Login Page" width="500">
 
-## Future Improvements
-- 🚀 Transition to a faster UI framework like **JavaFX** or **Swing**.
-- 🔒 Enhance database security.
-- 📡 Implement advanced networking features such as **SSL/TLS** for secure communication.
+### Main Page:
+<img src="assets/main_page.png" alt="Main Page" width="500">
+
+### Portfolio Page:
+<img src="assets/portfolio.png" alt="Portfolio Page" width="500">
 
 ---
+
+## 📌 **Important Notes**
+
+- Ensure all three components are running on devices connected to the **same network**.
+- Verify IP addresses configured in the code.
+- For better performance, consider optimizing the UI with **JavaFX** or **Swing**.
+
+---
+
+## 🛠️ **Troubleshooting**
+
+### Common Issues & Solutions
+
+1. **Connection Errors**
+   - Confirm devices are on the **same network**.
+   - Validate **IPv4 addresses** are configured correctly.
+
+2. **Firebase Authentication Issues**
+   - Ensure Firebase credentials are accurate.
+   - Verify **internet connectivity**.
+   - Provide the appropriate JSON file for authentication (refer to the code for database structure).
+
+---
+
+## 🌟 **Future Enhancements**
+
+- Transition to a faster UI framework like **JavaFX** or **Swing**.
+- Implement **SSL/TLS** for secure communication.
+- Strengthen database security with advanced encryption methods.
+
+---
+
+**PROJECT RAPTOR**: Connecting concepts to real-world applications, one protocol at a time! 🌐
 
